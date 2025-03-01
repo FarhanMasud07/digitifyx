@@ -1,0 +1,1009 @@
+.startup-circle-header{
+   text-align: center;
+   margin-left: 0;
+   margin-right: 0;
+   text-transform: none;   
+   color: #fff;
+   position: relative;
+}
+
+.startup-circle-header-word {
+    font-size: 277px;
+    font-weight: 800;
+    line-height: 1.2em;
+    letter-spacing: 0px;
+    animation-timing-function: cubic-bezier(1,0,0,2);
+    animation-duration: 2000ms;
+    animation-name: thegemHeadingLettersSlideUp;
+    position: relative;
+    transform: translateY(100%);
+    display: inline-flex;
+    animation-fill-mode: forwards;
+}
+
+.startup-circle {
+    max-width: 1212px;
+    padding: 204px 0 260px;
+    margin: 0 auto;
+    height: 100px;
+    overflow: hidden;
+}
+
+.circle {
+    position: relative;
+    left: 20px;
+    top: 35px;
+    z-index: 1;
+}
+.circle .outer-circle {
+    position: absolute;
+    border: 5px solid #00ff9a;
+    width: 166px;
+    height: 162px;
+    border-radius: 50%;
+}
+.circle .inner-circle {
+    position: absolute;
+    border: 14px solid black;
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    margin-top: 24px;
+    margin-left: 5px;
+    opacity: 0.24;
+    filter: blur(5.5px);
+}
+
+.trade-mark {
+    position: absolute;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 1.2em;
+    color: #fff;
+    right: 38px;
+    top: 72px;
+
+    animation-duration: 2s;
+    z-index: 1;
+}
+@media (max-width:1200px) and (min-width: 1170px){
+    .startup-circle-header-word {
+        font-size: 265px;
+    }
+}
+@media (max-width:1169px) and (min-width: 1140px){
+    .startup-circle-header-word {
+        font-size: 255px;
+    }
+}
+@media (max-width:1139px) and (min-width: 1100px){
+    .startup-circle-header-word {
+        font-size: 245px;
+    }
+    .circle {
+        top: 20px;
+    }
+
+    .trade-mark {
+        font-size: 70px;
+        right: 70px;
+        top: 67px;
+    }
+}
+@media (max-width:1099px) and (min-width: 1070px){
+    .startup-circle-header-word {
+        font-size: 230px;
+    }
+    .circle {
+        top: 10px;
+    }
+
+    .startup-circle {
+        padding: 204px 0 220px;
+    }
+
+    .trade-mark {
+        font-size: 70px;
+        right: 90px;
+        top: 37px;
+    }
+}
+@media (max-width:1069px) and (min-width: 1040px){
+    .startup-circle-header-word {
+        font-size: 220px;
+    }
+    .circle {
+        top: 0px;
+    }
+
+    .startup-circle {
+        padding: 204px 0 210px;
+    }
+
+    .trade-mark {
+        font-size: 70px;
+        right: 90px;
+        top: 37px;
+    }
+}
+@media (max-width:1039px) and (min-width: 1018px){
+    .startup-circle-header-word {
+        font-size: 210px;
+    }
+    .circle {
+        top: 5px;
+    }
+
+    .startup-circle {
+        padding: 204px 0 200px;
+    }
+
+    .trade-mark {
+        font-size: 70px;
+        right: 90px;
+        top: 37px;
+    }
+}
+@media (max-width: 1017px) and (min-width:970px){
+    .circle {
+        top: 0px;
+    }
+    .startup-circle-header-word {
+        font-size: 200px;
+    }
+    .startup-circle {
+        height: 30px;
+    }
+
+    .trade-mark {
+        font-size: 65px;
+        right: 90px;
+        top: 40px;
+    }
+}
+@media (max-width: 969px)and (min-width:940px) {
+    .circle {
+        top: -15px;
+    }
+    .startup-circle-header-word {
+        font-size: 190px;
+    }
+
+    .startup-circle {
+        padding: 204px 0 170px;
+    }
+
+    .trade-mark {
+        font-size: 65px;
+        right: 80px;
+        top: 40px;
+    }
+}
+@media (max-width: 939px)and (min-width:900px) {
+    .circle {
+        top: -15px;
+    }
+    .startup-circle-header-word {
+        font-size: 180px;
+    }
+    .startup-circle {
+        padding: 204px 0 160px;
+    }
+
+    .trade-mark {
+        font-size: 65px;
+        right: 80px;
+        top: 40px;
+    }
+}
+@media (max-width: 899px) and (min-width:870px){
+    .circle {
+        top: -30px;
+        left: 30px;
+    }
+    .startup-circle-header-word {
+        font-size: 160px;
+    }
+    .startup-circle {
+        padding: 204px 0 140px;
+    }
+
+    .trade-mark {
+        font-size: 58px;
+        right: 110px;
+        top: 30px;
+    }
+}
+@media (max-width: 869px) and (min-width:840px){
+    .circle {
+        top: -30px;
+        left: 45px;
+    }
+    .startup-circle-header-word {
+        font-size: 150px;
+    }
+    .circle .inner-circle {
+        width: 135px;
+        height: 135px;
+    }
+    .circle .outer-circle {
+        width: 150px;
+        height: 150px;
+    }
+    .startup-circle {
+        padding: 204px 0 140px;
+    }
+
+    .business-quickly-text {
+        font-size: 19px !important;
+    }
+
+    .trade-mark {
+        font-size: 58px;
+        right: 110px;
+        top: 30px;
+    }
+}
+@media (max-width: 839px) and (min-width:800px){
+    .circle {
+        top: -30px;
+        left: 45px;
+    }
+    .startup-circle-header-word {
+        font-size: 140px;
+    }
+    .circle .inner-circle {
+        width: 125px;
+        height: 125px;
+    }
+    .circle .outer-circle {
+        width: 140px;
+        height: 140px;
+    }
+    .startup-circle {
+        padding: 204px 0 100px;
+    }
+
+    .business-quickly-text {
+        font-size: 19px !important;
+    }
+
+    .trade-mark {
+        font-size: 52px;
+        right: 110px;
+        top: 30px;
+    }
+}
+@media (max-width: 799px) and (min-width:768px){
+    .circle {
+        top: -30px;
+        left: 45px;
+    }
+    .startup-circle-header-word {
+        font-size: 140px;
+    }
+    .circle .inner-circle {
+        width: 115px;
+        height: 115px;
+    }
+    .circle .outer-circle {
+        width: 130px;
+        height: 130px;
+    }
+
+    .business-quickly-text {
+        font-size: 19px !important;
+    }
+    .business-quickly {
+        gap: 20px !important;
+    }
+
+    .startup-circle {
+        padding: 204px 0 120px;
+        height: 80px;
+    }
+
+    .trade-mark {
+        font-size: 52px;
+        right: 87px;
+        top: 30px;
+    }
+}
+@media (max-width: 767px) and (min-width:700px){
+    .circle {
+        top: -30px;
+        left: 45px;
+    }
+    .startup-circle-header-word {
+        font-size: 130px;
+    }
+    .circle .inner-circle {
+        width: 105px;
+        height: 105px;
+    }
+    .circle .outer-circle {
+        width: 120px;
+        height: 120px;
+    }
+
+    .startup-circle {
+        padding: 204px 0 100px;
+    }
+    .business-quickly-text {
+        font-size: 16px !important;
+    }
+    .trade-mark {
+        font-size: 45px;
+        right: 87px;
+        top: 25px;
+    }
+}
+@media (max-width: 699px) and (min-width: 670px){
+    .circle {
+        top: -20px;
+        left: 75px;
+    }
+    .startup-circle-header-word {
+        font-size: 100px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 50px;
+        height: 80px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 60px !important;
+        justify-content: space-around !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 42px;
+        right: 111px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 669px) and (min-width: 640px){
+    .circle {
+        top: -20px;
+        left: 75px;
+    }
+    .startup-circle-header-word {
+        font-size: 90px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 50px;
+        height: 80px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 60px !important;
+        justify-content: space-around !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 42px;
+        right: 111px;
+        top: 20px;
+    }
+}
+
+@media (max-width: 639px) and (min-width: 600px) {
+    .circle {
+        top: -25px;
+        left: 75px;
+    }
+    .startup-circle-header-word {
+        font-size: 80px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 50px;
+        height: 80px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 60px !important;
+        justify-content: space-around !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 35px;
+        right: 121px;
+        top: 10px;
+    }
+}
+
+@media (max-width: 599px) and (min-width: 587px){
+    .circle {
+        top: -35px;
+        left: 70px;
+    }
+    .startup-circle-header-word {
+        font-size: 80px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 20px;
+        height: 80px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 60px !important;
+        justify-content: space-around !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 35px;
+        right: 121px;
+        top: 10px;
+    }
+}
+@media (max-width: 586px) and (min-width: 565px){
+    .circle {
+        top: -35px;
+        left: 70px;
+    }
+    .startup-circle-header-word {
+        font-size: 70px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 20px;
+        height: 80px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 60px !important;
+        justify-content: space-around !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 35px;
+        right: 121px;
+        top: 10px;
+    }
+}
+@media (max-width: 564px) and (min-width: 540px){
+    .circle {
+        top: -35px;
+        left: 70px;
+    }
+    .startup-circle-header-word {
+        font-size: 65px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 20px;
+        height: 60px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 60px !important;
+        justify-content: space-around !important;
+        margin-top: 0 !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 25px;
+        right: 121px;
+        top: 10px;
+    }
+}
+@media (max-width: 539px) and (min-width: 500px){
+    .circle {
+        top: -35px;
+        left: 55px;
+    }
+    .startup-circle-header-word {
+        font-size: 60px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 20px;
+        height: 80px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 40px !important;
+        justify-content: space-around !important;
+        margin-top: 0 !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 22px;
+        right: 121px;
+        top: 10px;
+    }
+}
+@media (max-width: 499px) and (min-width: 469px){
+    .circle {
+        top: -45px;
+        left: 55px;
+    }
+    .startup-circle-header-word {
+        font-size: 50px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 20px;
+        height: 68px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 22px !important;
+        justify-content: space-around !important;
+        margin-top: 0 !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 20px;
+        right: 121px;
+        top: 9px;
+    }
+}
+@media (max-width: 468px) and (min-width: 431px){
+    .circle {
+        top: -55px;
+        left: 55px;
+    }
+    .startup-circle-header-word {
+        font-size: 45px;
+    }
+    .circle .inner-circle {
+        width: 90px;
+        height: 90px;
+        border: 6px solid black;
+    }
+    .circle .outer-circle {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #00ff9a;
+    }
+    .startup-circle {
+        padding: 150px 0 20px;
+        height: 60px;
+    }
+    .online-business {
+        flex-direction: column;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 485px !important;
+        align-items: flex-start;
+        margin-left: 22px !important;
+        justify-content: space-around !important;
+        margin-top: 0 !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+    .trade-mark {
+        font-size: 16px;
+        right: 115px;
+        top: 9px;
+    }
+}
+
+@media (max-width: 430px) and (min-width: 415px){
+    .circle {
+        top: -38px;
+        left: 32px;
+    }
+    .startup-circle-header-word {
+        font-size: 60px;
+    }
+    .circle .inner-circle {        
+        width: 73px;
+        height: 70px;
+        border: 6px solid black;
+        filter: blur(4.5px);
+        margin-top: 15px;
+    }
+    .circle .outer-circle {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #00ff9a;
+    }
+    .trade-mark {
+        font-size: 31px;
+        right: 67px;
+        top: 5px;
+    }
+    .startup-circle {
+        padding: 150px 0 0;
+        height: 80px;
+    }
+    .online-business {
+        flex-wrap: wrap;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 500px !important;
+        align-items: center;
+        margin-top: 0 !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+}
+@media (max-width: 414px) and (min-width: 375px){
+    .circle {
+        top: -38px;
+        left: 22px;
+    }
+    .startup-circle-header-word {
+        font-size: 55px;
+    }
+    .circle .inner-circle {        
+        width: 73px;
+        height: 70px;
+        border: 6px solid black;
+        filter: blur(4.5px);
+        margin-top: 15px;
+    }
+    .circle .outer-circle {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #00ff9a;
+    }
+    .trade-mark {
+        font-size: 22px;
+        right: 67px;
+        top: 5px;
+    }
+    .startup-circle {
+        padding: 150px 0 0;
+        height: 80px;
+    }
+    .online-business {
+        flex-wrap: wrap;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 500px !important;
+        align-items: center;
+        margin-top: 0 !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -193px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 16px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 36px !important;
+    }
+    .start-online-business {
+        padding-top: 77px !important;
+    }
+}
+
+@media (max-width: 374px) {
+    .circle {
+        top: -48px;
+        left: 0px;
+    }
+    .startup-circle-header-word {
+        font-size: 55px;
+    }
+    .circle .inner-circle {        
+        width: 73px;
+        height: 70px;
+        border: 6px solid black;
+        filter: blur(4.5px);
+        margin-top: 15px;
+    }
+    .circle .outer-circle {
+        width: 80px;
+        height: 80px;
+        border: 3px solid #00ff9a;
+    }
+    .trade-mark {
+        font-size: 18px;
+        right: 37px;
+        top: 10px;
+    }
+    .startup-circle {
+        padding: 100px 0 0;
+        height: 80px;
+    }
+    .online-business {
+        flex-wrap: wrap;
+        font-size: 31px;
+        gap: 0px !important;
+        height: 500px !important;
+        align-items: center;
+        margin-top: 0 !important;
+    }
+    .business-quickly {
+        padding-left: 30px !important;
+        gap: 20px !important;
+        margin-top: -293px;
+        padding-top: 0;
+    }
+    .business-quickly-text {
+        font-size: 12px !important;
+        line-height: 30px !important;
+        padding-right: 0 !important;
+    }
+    .start-online-business .start-online-business-para {
+        font-size: 26px !important;
+    }
+    .start-online-business {
+        padding-top: 114px !important;
+    }
+}
+
+
+.bounceInUp {
+    animation-name: bounceInUp;
+}
+.bounceInDown {
+    animation-name: bounceInDown;
+    animation-duration: 2s;
+}

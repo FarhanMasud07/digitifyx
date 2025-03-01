@@ -1,0 +1,107 @@
+.business-solution {
+    padding: 9rem 10px 0 4rem;
+    display: flex;
+    flex-direction: column;
+}
+.business-solution .bringing {  
+    line-height: 1.3em;
+    color: #272727FF;
+    letter-spacing: 0px;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+}
+.business-solution .solutions-idea {
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0px;
+    text-transform: none;
+    color: #272727FF;
+}
+
+.business-solution .solutions-idea-para {
+    width: 350px;
+    color: #838383;
+    line-height: 1.6em;
+    letter-spacing: 0px;
+    text-transform: none;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.business-solution .get-started-now-bringing {
+    border-radius: 100px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #242424;
+    color: #242424;
+    animation-name: buttonSlideLeft;
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(.25,1,.5,1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 221px;
+    cursor: pointer;
+    opacity: 0;
+    text-decoration: none;
+    margin-top: 40px;
+}
+.business-solution .get-started-now-bringing span {
+    padding: 15px 0px 15px 0px;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: none;
+    cursor: pointer;
+}
+.business-solution .get-started-now-bringing:hover{
+    background-color: #242424;
+    color: white;
+    cursor: pointer;
+}
+
+.business-solution .solution-idea-gap {
+    margin-top: 25px;
+}
+
+@media (max-width: 1199px) {
+    .title-xlarge {
+        font-size: 50px;
+    }
+}
+@media (max-width: 1023px) {
+    .business-solution {
+        margin: 0 auto;
+        padding: 9rem 10px 0 0;
+    }
+}
+@media (max-width: 706px) {
+    .business-solution {
+        padding: 1rem 10px 0 4rem;
+    }
+    .business-solution .bringing { 
+        font-size: 50px;
+    }
+    .business-solution .solutions-idea{
+        font-size: 24px;
+    }
+    .business-solution .solutions-idea-para {
+        font-size: 14px;
+    }
+    .business-solution .solutions-idea-para { 
+        width: 100%;
+    }
+    .business-solution .solution-idea-gap {
+        margin-top: 16px;
+    }
+    .business-solution .solutions-idea {
+        line-height: 32px;
+    }
+    .business-solution .get-started-now-bringing {
+        margin-top: 20px;
+    }
+}

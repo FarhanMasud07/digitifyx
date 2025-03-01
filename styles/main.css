@@ -1,0 +1,149 @@
+* {
+    font-family: 'Plus Jakarta Sans';
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    cursor: grab;
+}
+
+.hero{
+    background-color: black;
+    height: 69rem;
+}
+
+.fixed-canva {
+    display: inline-flex; 
+    overflow: hidden
+}
+
+.slide-up-animaion {
+    animation-timing-function: cubic-bezier(0,1,.3,1);
+    animation-duration: 800ms;
+    animation-name: thegemHeadingLinesSlideUp;
+    animation-delay: 500ms;
+    transform: translateY(100%);
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.slide-right-animation {
+    animation-name: thegemHeadingWordsSlideRight;
+    transform: translateX(-100%);
+    animation-fill-mode: forwards;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(.25,1,.5,1);
+    animation-delay: 1000ms;
+}
+
+@media (max-width: 600px) and (min-width: 500px) {
+    .hero {
+        height: 58rem;
+    } 
+}
+@media (max-width: 500px) and (min-width: 375px){
+    .hero {
+        height: 54rem;
+    } 
+}
+@media (max-width: 374px)  {
+    .hero {
+        height: 51rem;
+    } 
+}
+
+@keyframes bounceInUp {
+    60%,75%,90%,from,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
+    }
+
+    from {
+        opacity: 0;
+        transform: translate3d(0,3000px,0)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(0,-20px,0)
+    }
+
+    75% {
+        transform: translate3d(0,10px,0)
+    }
+
+    90% {
+        transform: translate3d(0,-5px,0)
+    }
+
+    to {
+        transform: translate3d(0,0,0)
+    }
+}
+
+
+@keyframes bounceInDown {
+    60%,75%,90%,from,to {
+        animation-timing-function: cubic-bezier(.215,.61,.355,1)
+    }
+
+    0% {
+        opacity: 0;
+        transform: translate3d(0,-3000px,0)
+    }
+
+    60% {
+        opacity: 1;
+        transform: translate3d(0,25px,0)
+    }
+
+    75% {
+        transform: translate3d(0,-10px,0)
+    }
+
+    90% {
+        transform: translate3d(0,5px,0)
+    }
+
+    to {
+        transform: none
+    }
+}
+@keyframes thegemHeadingLettersSlideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes thegemHeadingWordsSlideRight {
+    from {
+        transform: translateX(-100%)
+    }
+
+    to {
+        transform: translateX(0)
+    }
+}
+@keyframes thegemHeadingLinesSlideUp {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes buttonSlideLeft {
+    from {
+        transform: translateX(120%)
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
